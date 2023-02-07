@@ -28,4 +28,11 @@ class PersonTest {
         String expected = "Manfred";
         assertEquals(expected, person.getName());
     }
+
+
+    @Test
+    void setAlter() {
+        int expected = 23;
+        assertEquals(23, person.getAlter());
+    }
 }
