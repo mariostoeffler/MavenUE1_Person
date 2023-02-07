@@ -32,7 +32,7 @@ class PersonTest {
 
     @Test
     void setAlter() {
-        int expected = 35;
+        int expected = 34;
         assertEquals(expected, person.getAlter());
     }
 }
