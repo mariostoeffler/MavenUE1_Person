@@ -35,4 +35,12 @@ class PersonTest {
         int expected = 34;
         assertEquals(expected, person.getAlter());
     }
+
+
+    @Test
+    void istVolljaehrig() {
+        assertTrue(person.istVolljaehrig());
+        person.setAlter(17);
+        assertFalse(person.istVolljaehrig());
+    }
 }

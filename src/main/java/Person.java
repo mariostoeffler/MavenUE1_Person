@@ -32,4 +32,8 @@ public class Person {
         alter = alter +1;
     }
 
+    public boolean istVolljaehrig() {
+        return alter >= 18;
+    }
+
 }

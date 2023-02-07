@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d05ba958-b2c5-4e68-b77d-f23f0f12fd19" name="Changes" comment="new testmethod setAlter() added;" />
+    <list default="true" id="d05ba958-b2c5-4e68-b77d-f23f0f12fd19" name="Changes" comment="testmethod setAlter modified again;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonTest.istVolljaehrig">
     <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenUE1_Person" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,8 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.istVolljaehrig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenUE1_Person" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest" />
+      <option name="METHOD_NAME" value="istVolljaehrig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.istVolljaehrig" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
     </recent_temporary>
@@ -99,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675789326170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testmethod setAlter modified;">
+      <created>1675789414150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675789414150</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testmethod setAlter modified again;">
+      <created>1675789481179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675789481179</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +146,8 @@
     <MESSAGE value="new dependency added;" />
     <MESSAGE value="new testmethod setName() added;" />
     <MESSAGE value="new testmethod setAlter() added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="new testmethod setAlter() added;" />
+    <MESSAGE value="testmethod setAlter modified;" />
+    <MESSAGE value="testmethod setAlter modified again;" />
+    <option name="LAST_COMMIT_MESSAGE" value="testmethod setAlter modified again;" />
   </component>
 </project>
