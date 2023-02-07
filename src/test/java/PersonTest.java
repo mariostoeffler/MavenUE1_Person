@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,5 +20,12 @@ class PersonTest {
         int excpected = 35;
         person.alterErhoehen();
         assertEquals(excpected, person.getAlter());
+    }
+
+
+    @Test
+    void setName() {
+        String expected = "Manfred";
+        assertEquals(expected, person.getName());
     }
 }
